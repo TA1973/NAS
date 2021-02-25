@@ -13,13 +13,17 @@ Write an ASP.Net web application that will consume an API from the National Weat
 8.	upload the code to your GitHub for review by an Audubon Engineer
 
 
-### Solution
-Solution and Project are contained within the Zip file and can be opened with Visual Studio
+### Zip File Contents
+-Solution can be opened with Visual Studio contains project
+-NationalWeatherService.mdf is included for creating the Local DB
+-dbo.Registration included to create the table if you want to use your own Local DB
+
+##### Notes
 Local Database was utilized for Registration and Login mdf file is included in zip file as well as
 I didn't really know how to include the database. The connection string is in the Web.Config file if the
 database is recreated and the connection string needs changed. It is pretty generic for a localDB using Visual Studio.
+
 Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NationalWeatherService;Integrated Security=True" />
-Script to recreate the table is also included in case you want to put the table in your own database instead.
 
 #### Timing
 I worked on this throughout the day and unfortunately due to a hit and run causing property damage at my house 
